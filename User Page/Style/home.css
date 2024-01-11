@@ -5,7 +5,7 @@
 
 .container {
     width: 430px;
-    height: 932px;
+    height: 1150px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -82,7 +82,7 @@
     width: 100px;
     height: 100px;
     position: relative;
-    left: 5px;
+    left: 4px;
     top: 5px;
     margin: 0px 5px;
     border: 1px solid #ddd;
@@ -95,6 +95,48 @@
     height: 100px;
     object-fit: cover;
   }
-  .card-content {
-    padding: 15px;
-  }
+
+.kategori h1 {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.container-card-kedua {
+    display: flex;
+    width: 422px;
+    height: 300px;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.container-card-kedua a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-kategori {
+    width: 200px;
+    height: 250px;
+    box-shadow: 2px 2px  rgba(0,0,0,0.8);
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.card-kategori h1 {
+    text-align: center;
+    text-decoration: none;
+}
+
+.card-kategori img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
