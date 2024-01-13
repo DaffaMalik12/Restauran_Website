@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 428px;
+    height: 926px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gambar {
+    position: relative;
+}
+
+.pembungkus-icon {
+    display: flex;
+}
+
+.gambar img {
+    width: 432px;
+    height: 200px;
+}
+
+
+.icon-arrow {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.icon-share {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    font-size: 18px;
+}
+
+.icon-arrow a {
+    color: whitesmoke;
+}
+
+.icon-share a {
+    color: whitesmoke;
+}
+
+.section-about {
+    width: 432px;
+    height: 120px;
+    background-color: #EFEBEB;
+    margin-top: 10px;
+}
+
+.pembungkus-text {
+    display: flex;
+}
+
+.pembungkus-text h5{
+    position: relative;
+    left: 230px;
+    top: 15px;
+}
+.pembungkus-text h1{
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.section-catatan {
+    width: 432px;
+    height: 120px;
+    background-color: #EFEBEB;
+    margin-top: 20px;
+}
+
+.pembungkus-text-2 {
+    display: flex;
+}
+
+.pembungkus-text-2 h1{
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.pembungkus-text-2 h5{
+    position: relative;
+    left: 120px;
+    top: 15px;
+}
+
+.section-catatan input {
+    position: relative;
+    top: 12px;
+    left: 10px;
+    width: 410px;
+    height: 70px;
+    border: white;
+    border-radius: 5px;
+}
+
+.section-rating {
+    width: 432px;
+    height: 170px;
+    background-color: #EFEBEB;
+    position: relative;
+    top: 30px;
+}
+
+.pembungkus-content img {
+    width: 50px;
+    border-radius: 100px;
+}
+
+.section-pembelian {
+ width: 428px;
+ height: 200px;
+ background-color: #EFEBEB;
+ border-top-right-radius: 50px;
+ border-top-left-radius: 50px;
+ margin-top: 100px;
+}
+
+.section-pembelian button {
+    position: relative;
+    top: 60px;
+    left: 15px;
+    width: 400px;
+    height: 50px;
+    background-color: #CD812C;
+    border-radius: 10px;
+}
