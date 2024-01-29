@@ -31,6 +31,14 @@
     
 }
 
+.pembungkus #keranjang{
+    padding-left: 0px;
+}
+
+.pembungkus {
+    position: relative;
+    left: 250px;
+}
 
 .search input {
     width: 400px;

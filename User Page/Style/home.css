@@ -26,8 +26,13 @@
     display: flex;
     text-align: end; 
     padding-top: 45px;
-    padding-left: 230px;
-    
+    position: relative;
+    /* left: 235px;     */
+}
+
+.pembungkus {
+    position: relative;
+    left: 235px;
 }
 
 
