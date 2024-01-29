@@ -18,7 +18,12 @@
         ></a>
       </div>
       <div class="search">
-        <input class="input" type="text" placeholder="Search...." />
+        <input
+          class="input"
+          id="kategoriSearchInput"
+          type="text"
+          placeholder="Search...."
+        />
       </div>
       <div class="pemilihan-menu">
         <div class="card-menu">
@@ -40,9 +45,9 @@
       <div class="text-food">
         <h1>Drinks</h1>
       </div>
-      <div class="container-card-kedua">
-        <a href="coffee.html">
-          <div class="card-kategori">
+      <div class="container-card-kedua" id="resultsContainer">
+        <div class="card-kategori">
+          <a href="coffee.html">
             <img
               src="../img/Holiday Spiced Café Au Lait - The Local Palate.jpg"
               alt="Card Image"
@@ -51,10 +56,10 @@
               <h1>Coffee</h1>
               <h2>Rp.20.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="americano.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="americano.html">
             <img
               src="../img/There's No Such Thing as Too Much Coffee! Current Blog.jpg"
               alt="Card Image"
@@ -63,10 +68,10 @@
               <h1>Americano</h1>
               <h2 class="text-long2">Rp.20.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="chocolate.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="chocolate.html">
             <img
               src="../img/Cold Coffee with frozen coffee ice cubes - Only Deco Love.jpg"
               alt="Card Image"
@@ -75,10 +80,10 @@
               <h1>Chocolate</h1>
               <h2 class="text-long">Rp.20.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="kopi.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="kopi.html">
             <img
               src="../img/How to Properly Reheat Coffee in the Microwave.jpg"
               alt="Card Image"
@@ -87,10 +92,10 @@
               <h1 class="text-size">Kopi</h1>
               <h2>Rp.20.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="mineral.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="mineral.html">
             <img
               src="../img/200 ml Pet Bottled Mavi Natural Mineral Water N90 TRADE FOOD +905064433763 export@n90trade_com.jpg"
               alt="Card Image"
@@ -99,10 +104,10 @@
               <h1>Mineral</h1>
               <h2 class="text-long3">Rp.20.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="es_teh.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="es_teh.html">
             <img
               src="../img/The 11 Best Gins for Negronis in 2022.jpg"
               alt="Card Image"
@@ -111,8 +116,8 @@
               <h1>Es Teh</h1>
               <h2 style="padding-left: 55px">Rp.20.000</h2>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -123,5 +128,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="../script/search.js"></script>
   </body>
 </html>

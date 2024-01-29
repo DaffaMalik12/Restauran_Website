@@ -25,7 +25,7 @@
         ></a>
       </div>
       <div class="search">
-        <input class="input" type="text" placeholder="Search...." />
+        <input class="input" id="kategoriSearchInput" type="text" placeholder="Search...." />
       </div>
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -86,40 +86,40 @@
       </div>
       <div class="kategori">
         <h1>Kategori</h1>
-        <div class="container-card-kedua">
-          <a href="../Halaman_Menu_Food/menu_food.html">
-            <div class="card-kategori">
+        <div class="container-card-kedua" id="resultsContainer">
+          <div class="card-kategori">
+              <a href="../Halaman_Menu_Food/menu_food.html" >
               <img
                 src="../img/Spicy Taichan Chicken Satay - Keto Diet Recipe - Much Butter.jpg"
                 alt="Card Image"
               />
               <h1>Foods</h1>
+            </a>
             </div>
-          </a>
-          <a href="../Halaman_Menu_Drink/menu_drink.html">
-            <div class="card-kategori">
+          <div class="card-kategori">
+              <a href="../Halaman_Menu_Drink/menu_drink.html">
               <img src="../img/Holiday Spiced Café Au Lait - The Local Palate.jpg" alt="Card Image" />
               <h1>Drinks</h1>
+            </a>
             </div>
-          </a>
-          <a href="../Halman_Menu_Dessert/menu_dessert.html">
             <div class="card-kategori">
+              <a href="../Halman_Menu_Dessert/menu_dessert.html">
               <img
                 src="../img/Oreo Brownie Trifle.jpg"
                 alt="Card Image"
               />
               <h1>Desserts</h1>
+            </a>
             </div>
-          </a>
-          <a href="../Halman_Menu_Snack/menu_snack.html">
             <div class="card-kategori">
+              <a href="../Halman_Menu_Snack/menu_snack.html">
               <img
                 src="../img/cireng.jpeg"
                 alt="Card Image"
               />
               <h1>Snacks</h1>
+            </a>
             </div>
-          </a>
         </div>
       </div>
     </div>
@@ -132,6 +132,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="../script/search.js"></script>
     <script src="../script/slide.js"></script>
   </body>
 </html>
