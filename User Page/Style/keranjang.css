@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 430px;
+    height: 928px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    display: flex;
+}
+
+.header i{
+    position: relative;
+    top: 10px;
+}
+
+.header h2 {
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    width: 390px;
+    height: 80px;
+    background-color: antiquewhite;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+.card-2 {
+    display: flex;
+    width: 390px;
+    height: 80px;
+    background-color: antiquewhite;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+.card-3 {
+    display: flex;
+    width: 390px;
+    height: 80px;
+    background-color: antiquewhite;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    position: relative;
+    left: 10px;
+}
+
+.content h1 {
+    position: relative;
+    top: 5px;
+}
+
+.content h5 {
+    position: relative;
+    top: 5px;
+}
+
+.content h6 {
+    position: relative;
+    top: 5px;
+}
+
+img {
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    /* border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; */
+}
+
+.pembayaran{
+    width: 430px;
+    height: 150px;
+    background-color: #d9d9d9;
+    position: relative;
+    top: 490px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.harga span {
+    position: relative;
+    top: 27px;
+    left: 25px;
+}
+
+.pembayaran button {
+    position: relative;
+    left: 25px;
+    top: 55px;
+    width: 380px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #cd812c;
+}
+
+.textHarga {
+    display: flex;
+}
+
+.textHarga span {
+    position: relative;
+    left: 210px;
+}
