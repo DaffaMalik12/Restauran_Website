@@ -18,7 +18,12 @@
         ></a>
       </div>
       <div class="search">
-        <input class="input" type="text" placeholder="Search...." />
+        <input
+          class="input"
+          id="kategoriSearchInput"
+          type="text"
+          placeholder="Search...."
+        />
       </div>
       <div class="pemilihan-menu">
         <div class="card-menu">
@@ -40,45 +45,45 @@
       <div class="text-food">
         <h1>Snacks</h1>
       </div>
-      <div class="container-card-kedua">
-        <a href="pukis.html">
-          <div class="card-kategori">
+      <div class="container-card-kedua" id="resultsContainer">
+        <div class="card-kategori">
+          <a href="pukis.html">
             <img src="../img/pukis.jpeg" alt="Card Image" />
             <div class="text">
               <h1>Pukis</h1>
               <h2>Rp.8.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="piscok.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="piscok.html">
             <img src="../img/piscok.jpeg" alt="Card Image" />
             <div class="text">
               <h1>Piscok</h1>
               <h2 class="text-long2" style="padding-left: 70px">Rp.5.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="martabak.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="martabak.html">
             <img src="../img/martabak.jpeg" alt="Card Image" />
             <div class="text">
               <h1>Martabak</h1>
               <h2 class="text-long" style="padding-left: 40px">Rp.10.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="cireng.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="cireng.html">
             <img src="../img/cireng.jpeg" alt="Card Image" />
             <div class="text">
               <h1 class="text-size" style="font-size: 19 px">Cireng</h1>
               <h2>Rp.10.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="popcorn.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="popcorn.html">
             <img
               src="../img/christian-wiediger-AEeoY_aqvNk-unsplash.jpg"
               alt="Card Image"
@@ -87,10 +92,10 @@
               <h1>Popcorn</h1>
               <h2 class="text-long3">Rp.40.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="kentang.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="kentang.html">
             <img
               src="../img/pexels-valeria-boltneva-1893555.jpg"
               alt="Card Image"
@@ -99,8 +104,8 @@
               <h1>Kentang</h1>
               <h2 style="padding-left: 54px">Rp.12.000</h2>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -111,5 +116,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="../script/search.js"></script>
   </body>
 </html>

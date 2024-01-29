@@ -18,7 +18,12 @@
         ></a>
       </div>
       <div class="search">
-        <input class="input" type="text" placeholder="Search...." />
+        <input
+          class="input"
+          id="kategoriSearchInput"
+          type="text"
+          placeholder="Search...."
+        />
       </div>
       <div class="pemilihan-menu">
         <div class="card-menu">
@@ -40,45 +45,45 @@
       <div class="text-food">
         <h1>Desserts</h1>
       </div>
-      <div class="container-card-kedua">
-        <a href="brownies.html">
-          <div class="card-kategori">
+      <div class="container-card-kedua" id="resultsContainer">
+        <div class="card-kategori">
+          <a href="brownies.html">
             <img src="../img/brownies.jpeg" alt="Card Image" />
             <div class="text">
               <h1 style="font-size: 20px">Brownies</h1>
               <h2 style="padding-left: 40px">Rp.18.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="lava_cake.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="lava_cake.html">
             <img src="../img/choco-lava.jpeg" alt="Card Image" />
             <div class="text">
               <h1>Lava Cake</h1>
               <h2 class="text-long2" style="padding-left: 23px">Rp.22.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="pudding.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="pudding.html">
             <img src="../img/pudding.jpg" alt="Card Image" />
             <div class="text">
               <h1>Pudding</h1>
               <h2 class="text-long" style="padding-left: 40px">Rp.5.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="es_krim.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="es_krim.html">
             <img src="../img/ice-cream.jpg" alt="Card Image" />
             <div class="text">
               <h1 class="text-size" style="font-size: 20px">Es Krim</h1>
               <h2 style="padding-left: 43px">Rp.10.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="pancake.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="pancake.html">
             <img
               src="../img/leighann-blackwood-HCGCpFxQlrA-unsplash.jpg"
               alt="Card Image"
@@ -87,10 +92,10 @@
               <h1>Pancake</h1>
               <h2 class="text-long3">Rp.25.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="roti.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="roti.html">
             <img
               src="../img/freddy-g-1i1zPbkQJNg-unsplash.jpg"
               alt="Card Image"
@@ -99,8 +104,8 @@
               <h1>Roti</h1>
               <h2 style="padding-left: 72px">Rp.20.000</h2>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -111,5 +116,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="../script/search.js"></script>
   </body>
 </html>

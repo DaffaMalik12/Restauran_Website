@@ -18,7 +18,12 @@
         ></a>
       </div>
       <div class="search">
-        <input class="input" type="text" placeholder="Search...." />
+        <input
+          class="input"
+          id="kategoriSearchInput"
+          type="text"
+          placeholder="Search...."
+        />
       </div>
       <div class="pemilihan-menu">
         <div class="card-menu">
@@ -40,61 +45,61 @@
       <div class="text-food">
         <h1>Foods</h1>
       </div>
-      <div class="container-card-kedua">
-        <a href="pasta.html">
-          <div class="card-kategori">
+      <div class="container-card-kedua" id="resultsContainer">
+        <div class="card-kategori">
+          <a href="pasta.html">
             <img src="../img/pasta.jpeg" alt="Card Image" />
             <div class="text">
               <h1>Pasta</h1>
               <h2>Rp.35.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="nasgor.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="nasgor.html">
             <img src="../img/nasi-goreng.jpg" alt="Card Image" />
             <div class="text">
               <h1>Nasgor</h1>
               <h2 style="padding-left: 60px">Rp.15.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="capcay.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="capcay.html">
             <img src="../img/capcay.jpeg" alt="Card Image" />
             <div class="text">
               <h1>Capcay</h1>
               <h2 style="padding-left: 60px">Rp.20.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="pecel_ayam.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="pecel_ayam.html">
             <img src="../img/pecel-ayam.jpg" alt="Card Image" />
             <div class="text">
               <h1 style="font-size: 20px">Pecel Ayam</h1>
               <h2 style="padding-left: 20px">Rp.15.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="geprek.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="geprek.html">
             <img src="../img/Ayam Geprek.jpeg" alt="Card Image" />
             <div class="text">
               <h1>Geprek</h1>
               <h2 style="padding-left: 60px">Rp.16.000</h2>
             </div>
-          </div>
-        </a>
-        <a href="nasi_bakar.html">
-          <div class="card-kategori">
+          </a>
+        </div>
+        <div class="card-kategori">
+          <a href="nasi_bakar.html">
             <img src="../img/nasi bakar.jpeg" alt="Card Image" />
             <div class="text">
               <h1>Nasi Bakar</h1>
               <h2 style="padding-left: 30px">Rp.10.000</h2>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </div>
 
@@ -105,5 +110,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="../script/search.js"></script>
   </body>
 </html>
