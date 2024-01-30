@@ -111,15 +111,31 @@ img {
     left: 25px;
 }
 
-.pembayaran button {
-    position: relative;
-    left: 25px;
-    top: 55px;
+.pembayaran a {
     width: 380px;
     height: 40px;
     border-radius: 20px;
     background-color: #cd812c;
+    text-decoration: none
 }
+
+.button a h2 {
+    color: aliceblue;
+    display: flex;
+    top: 5px;
+    position: relative;
+    left: 150px;
+    font-size: 20px;
+}
+
+.button {
+ display: flex;
+ justify-content: center;
+ position: relative;
+ top: 50px;
+}
+
+
 
 .textHarga {
     display: flex;
@@ -127,5 +143,5 @@ img {
 
 .textHarga span {
     position: relative;
-    left: 210px;
+    left: 200px;
 }
