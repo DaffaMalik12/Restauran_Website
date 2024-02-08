@@ -1,5 +1,5 @@
 let jumlahPesanan = 1;
-let hargaPerItem = 20000; // Harga per item dalam Rupiah
+let hargaPerItem = 15000; // Harga per item dalam Rupiah
 
 const plus = document.querySelector(".plus");
 const minus = document.querySelector(".minus");
