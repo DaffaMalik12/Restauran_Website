@@ -15,144 +15,8 @@
         <h2>Keranjang</h2>
       </div>
 
-      <div class="container-card">
-        <div class="card" data-price="20000">
-          <img
-            src="../img/200 ml Pet Bottled Mavi Natural Mineral Water N90 TRADE FOOD +905064433763 export@n90trade_com.jpg"
-            alt=""
-          />
-          <div class="content">
-            <h2>Pukis</h2>
-            <h5>5.0</h5>
-            <div class="textHarga">
-              <h6>Rp.20.000</h6>
-              <span style="position: relative; left: 190px; cursor: pointer">
-                <i class="fa-solid fa-trash"></i>
-              </span>
-              <span
-                ><i
-                  id="minus"
-                  class="fa-solid fa-circle-minus"
-                  style="font-size: 12px; cursor: pointer"
-                ></i
-              ></span>
-              <span
-                id="num"
-                style="
-                  font-size: 10px;
-                  position: relative;
-                  top: 5px;
-                  left: 203px;
-                "
-                >01</span
-              >
-              <span
-                ><i
-                  id="plus"
-                  class="fa-solid fa-circle-plus"
-                  style="
-                    font-size: 12px;
-                    position: relative;
-                    left: 5px;
-                    cursor: pointer;
-                  "
-                ></i
-              ></span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-2" data-price="20000">
-          <img
-            src="../img/200 ml Pet Bottled Mavi Natural Mineral Water N90 TRADE FOOD +905064433763 export@n90trade_com.jpg"
-            alt=""
-          />
-          <div class="content">
-            <h2>Pukis</h2>
-            <h5>5.0</h5>
-            <div class="textHarga">
-              <h6>Rp.20.000</h6>
-              <span style="position: relative; left: 190px; cursor: pointer">
-                <i class="fa-solid fa-trash"></i>
-              </span>
-              <span
-                ><i
-                  id="minus"
-                  class="fa-solid fa-circle-minus"
-                  style="font-size: 12px; cursor: pointer"
-                ></i
-              ></span>
-              <span
-                id="num"
-                style="
-                  font-size: 10px;
-                  position: relative;
-                  top: 5px;
-                  left: 203px;
-                "
-                >01</span
-              >
-              <span
-                ><i
-                  id="plus"
-                  class="fa-solid fa-circle-plus"
-                  style="
-                    font-size: 12px;
-                    position: relative;
-                    left: 5px;
-                    cursor: pointer;
-                  "
-                ></i
-              ></span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card-3" data-price="20000">
-          <img
-            src="../img/200 ml Pet Bottled Mavi Natural Mineral Water N90 TRADE FOOD +905064433763 export@n90trade_com.jpg"
-            alt=""
-          />
-          <div class="content">
-            <h2>Pukis</h2>
-            <h5>5.0</h5>
-            <div class="textHarga">
-              <h6>Rp.20.000</h6>
-              <span style="position: relative; left: 190px; cursor: pointer">
-                <i class="fa-solid fa-trash"></i>
-              </span>
-              <span
-                ><i
-                  id="minus"
-                  class="fa-solid fa-circle-minus"
-                  style="font-size: 12px; cursor: pointer"
-                ></i
-              ></span>
-              <span
-                id="num"
-                style="
-                  font-size: 10px;
-                  position: relative;
-                  top: 5px;
-                  left: 203px;
-                "
-                >01</span
-              >
-              <span
-                ><i
-                  id="plus"
-                  class="fa-solid fa-circle-plus"
-                  style="
-                    font-size: 12px;
-                    position: relative;
-                    left: 5px;
-                    cursor: pointer;
-                  "
-                ></i
-              ></span>
-            </div>
-          </div>
-        </div>
+      <div class="container-card" id="products-container">
+        <!-- Konten kartu akan ditambahkan di sini oleh JavaScript -->
       </div>
 
       <div class="pembayaran">
@@ -166,8 +30,12 @@
               position: relative;
               left: 200px;
             "
-            >Rp.60.000</span
-          >
+            >Rp.
+            <span
+              id="total-price"
+              style="position: relative; top: -25px; left: -30px"
+            ></span
+          ></span>
         </div>
         <div class="button">
           <a href="../Halaman Confirm/confirm.html"><h2>Bayar</h2></a>
@@ -175,7 +43,8 @@
       </div>
     </div>
 
-    <script src="../script/increment_decrement.js"></script>
+    <!-- <script src="../script/increment_decrement.js"></script> -->
+    <script src="../Backend/fetch_data.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"

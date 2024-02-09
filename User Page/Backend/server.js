@@ -45,6 +45,19 @@ app.post("/products", (req, res) => {
   });
 });
 
+// Route untuk mengambil semua produk dari database
+app.get("/products", (req, res) => {
+  // Query untuk mengambil semua produk dari database
+  const sql = `SELECT * FROM products`;
+  db.query(sql, (err, results) => {
+    if (err) {
+      throw err;
+    }
+    console.log("Products fetched:", results);
+    res.json(results); // Mengirim data produk sebagai respons dalam format JSON
+  });
+});
+
 // Route untuk menghapus produk dari database berdasarkan ID produk
 app.delete("/products/:id", (req, res) => {
   const productId = req.params.id;
