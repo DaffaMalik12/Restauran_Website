@@ -1,13 +1,18 @@
 $(document).ready(function () {
   $("button").click(function () {
     var image = $(".gambar img").attr("src");
+    console.log(image);
     var harga = $(".harga").text();
-    var namaProducts = $(".nama_products").text(); 
+    console.log(harga);
+    var namaProducts = $(".nama_products").text();
+    console.log(namaProducts);
+
     var catatan = $(".Catatan").val();
+    console.log(catatan);
 
     var data = {
       image: image,
-      namaProducts: namaProducts, 
+      namaProducts: namaProducts,
       harga: harga,
       catatan: catatan,
     };
