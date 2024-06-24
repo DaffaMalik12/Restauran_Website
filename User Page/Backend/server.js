@@ -19,7 +19,7 @@ const db = mysql.createConnection({
   host: "localhost",
   user: "root", // Ganti dengan username database Anda
   password: "", // Ganti dengan password database Anda
-  database: "cart",
+  database: "Restauran_db",
 });
 
 // Koneksi ke database

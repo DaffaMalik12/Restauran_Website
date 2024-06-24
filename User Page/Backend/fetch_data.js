@@ -35,7 +35,7 @@ fetch("http://localhost:3000/products")
       // Tambahkan kartu ke dalam kontainer produk
       productsContainer.appendChild(card);
 
-      // Tambahkan harga produk ke total harga
+      // Tambahkan Harga Produk Ke Total Harga
       totalPrice += parseFloat(product.harga_products);
     });
 
